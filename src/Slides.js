@@ -28,9 +28,9 @@ function Slides({imageProps}) {
     return(
         <div>
             <div>
-                <img src={imageProps[onlineStore]} alt="beaty" width="200px"/>
+                <img src={imageProps[onlineStore]} alt="beaty" width="200px" height="300"/>
             </div>
-            <div>
+            <div className="container">
                 <button onClick={prevBtn}>Previous</button>
                 <button onClick={nextBtn}>Next</button>
             </div>

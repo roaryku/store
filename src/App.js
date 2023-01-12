@@ -6,43 +6,48 @@ import Slides from './Slides';
 
 function App() {
   const [store, setStore] = useState(data);
-
+  const removeQuantity = (quantity) => {
+    let newQuantity = store.filter(available => available.quantity !==quantity);
+    setStore(newQuantity)
+  }
  
 
   return (
     <div>
-      <div className='container'>
+      <div>
         <h1>Beauty Online Store</h1>
       </div>
-
+        
+      <div className='container'>
       {store.map((item => {
-        const {id, beautyName, quantity, description, price} = item;
+        const {id, beautyName, quantity, price, image} = item;
         
         return(
           <div key={id}>
-            <div className='container'>
-            <h2>{id} - {beautyName}</h2>
+            <div>
+              <Slides imageProps={image}/>
+          </div>
+            <div>
+            <h4>{id} - {beautyName}</h4>
           </div>
 
           <div>
-              <Slides imageProps={image}/>
+            <h5>available {quantity}</h5>
+            
           </div>
 
-          <div className='container'>
-            <h4>available {quantity}</h4>
+          <div>
+            <h5>$ {price}</h5>
           </div>
 
-          <div className='container'>
-            <h4>$ {price}</h4>
-          </div>
-
-          <div className='container'>
-            <p>{description}</p>
+          <div className='container btn'>
+            <button onClick={() => removeQuantity(quantity)}>Add to card</button>
           </div>
         </div>
         )
       }))}
     </div>
+  </div>
   );
 }
 

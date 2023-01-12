@@ -34,7 +34,7 @@ export const data = [
 
 {
     id: 4,
-    beautyName: "Make Up Brushes Set",
+    beautyName: "Brushes Set",
     quantity: 11,
     description: "13 PCS Makeup Brushes Set Eye Shadow Foundation BB Cream Concealer Women Cosmetic Brush Eyeshadow Blush Powder Blending Beauty Soft Comprehensive Make Up Tools.",
     price: 64,
@@ -45,7 +45,7 @@ export const data = [
 
 {
     id: 5,
-    beautyName: "Skin care products and Diptyque fragrance ",
+    beautyName: "Skin care products",
     quantity: 19,
     description: "Skincare Products That Boosts Hydration, Improve Skin Surface & Diminish Skin Aging Signs. Diminish Up To 10 Years Of Visible Skin Damage After 1 Year Of PITERA™ Regimen. Award-Winning Skincare.",
     price: 89,
@@ -56,7 +56,7 @@ export const data = [
 
 {
     id: 6,
-    beautyName: "Chanale EAU de Parfume",
+    beautyName: "Chanale de Parfume",
     quantity: 17,
     description: "An intense facet of the COCO MADEMOISELLE personality emerges to forge a powerful, deep ambery fragrance that is irresistible in every way.",
     price: 157,
