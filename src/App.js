@@ -40,8 +40,8 @@ function App() {
             <h5>$ {price}</h5>
           </div>
 
-          <div className='container btn'>
-            <button onClick={() => removeQuantity(quantity)}>Add to card</button>
+          <div className='container'>
+            <button className='ctn' onClick={() => removeQuantity(quantity)}>Add to card</button>
           </div>
         </div>
         )

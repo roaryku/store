@@ -28,11 +28,11 @@ function Slides({imageProps}) {
     return(
         <div>
             <div>
-                <img src={imageProps[onlineStore]} alt="beaty" width="200px" height="300"/>
+                <img className='image' src={imageProps[onlineStore]} alt="beaty" width="200px" height="300"/>
             </div>
-            <div className="container">
-                <button onClick={prevBtn}>Previous</button>
-                <button onClick={nextBtn}>Next</button>
+            <div className="container cta">
+                <button className='btn' onClick={prevBtn}>Previous</button>
+                <button className='btn' onClick={nextBtn}>Next</button>
             </div>
         </div>
         )

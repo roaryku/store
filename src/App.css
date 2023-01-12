@@ -1,6 +1,19 @@
+body{
+  background-color: #F3EFE0;
+}
 h1{
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  color: #1A0000;
+  margin-top: 40px;
 }
+
+.image{
+  padding: 20px;
+  margin-top: 35px;
+}
+
 .container{
   display: flex;
   justify-content: space-around;
@@ -9,12 +22,31 @@ h1{
 }
 h4{
   text-align: center;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  color: #1A0000;
 }
 h5{
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
   font-size: 16px;
+  color: #1A0000;
 }
 .btn{
-  margin-top: 15px;
+  font-family: 'Montserrat', sans-serif;
+  color: #1A0000;
+  background-color: #FAAB78;
+  padding: 10px;
+  font-size: 15px;
+  border: none;
+}
+.ctn{
+  margin-top: 25px;
+  font-family: 'Montserrat', sans-serif;
+  color: #1A0000;
+  padding: 15px;
+  font-size: 15px;
+  border: none;
+  background-color: #68B984;
 }
