@@ -38,10 +38,14 @@ h5{
 .btn{
   font-family: 'Montserrat', sans-serif;
   color: #1A0000;
-  background-color: #FFD4B2;
+  background-color: #eccfaa;
   padding: 10px;
   font-size: 15px;
   border: none;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: #B4CDE6;
 }
 .ctn{
   margin-top: 25px;
@@ -50,5 +54,8 @@ h5{
   padding: 15px;
   font-size: 15px;
   border: none;
-  background-color: #68B984;
+  background-color: #00AF91;
+}
+.ctn:hover{
+  background-color: #ED7575;
 }
